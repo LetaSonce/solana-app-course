@@ -13,3 +13,10 @@ Next `npm i @solana-developers/helpers` This is npm package includes some extra 
 Next `npm install typescript @solana/web3.js@1 esrun @solana-developers/helpers@2`
 
 Run `npx esrun file.ts`
+
+Get some Devnet SOL https://faucet.solana.com/
+
+Solana has 3 public development environments:
+mainnet-beta https://api.mainnet-beta.solana.com
+devnet https://api.devnet.solana.com
+testnet https://api.testnet.solana.com

@@ -4,8 +4,7 @@ import { Connection, LAMPORTS_PER_SOL, PublicKey, clusterApiUrl } from '@solana/
 const suppliedPublicKey = process.argv[2];
 let publicKey;
 if (!suppliedPublicKey) {
-  publicKey = new PublicKey('48YJZcq15botTTXNkv2LLWewyZLxb6z9aEjYNaH3BkSn');
-  //throw new Error("Provide a public key to check the balance of!");
+  throw new Error("Provide a public key to check the balance of!");
 } else {
   publicKey = new PublicKey(suppliedPublicKey);
 }
